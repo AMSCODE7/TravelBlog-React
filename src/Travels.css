@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar style  */
+
+.nav-container {
+    width: 550px;
+    height: 55px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* margin-top: 30px; */
+    gap: 5px;
+    background-color: #f55a5a;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-container:hover {
+   background-color: #e72c2c;
+}
+
+.earth-icon {
+    margin-top: 17px;
+    color: white;
+}
+
+.nav-container > h4 {
+    margin-top: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+/* body style  */
+
+.travel-body-container {
+    width: 550px;
+    height: 710px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.blog-container {
+    display: flex;
+    height: 240px;
+    margin: auto;
+    margin-bottom: -20px;
+}
+
+.blog-container > img {
+    position: absolute;
+    width: 125px;
+    height: 168px;
+    margin-top: 45px;
+    margin-left: 40px;
+    border-radius: 5px;
+
+}
+
+.location-icon-box{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 184px;
+    height: 13px;
+    width: 13px;
+    color: #f55a5a;
+}
+
+.place-title-box{
+    position: absolute;
+    margin-top: 65.4px;
+    margin-left: 205px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+}
+
+.google-map-box {
+    position: absolute;
+    margin-left: 261px;
+    margin-top: 65.4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    color: #918E9B;
+
+}
+
+.location-name-box {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 186px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #f55a5a;
+}
+
+.date-box {
+    position: absolute;
+    margin-left: 186px;
+    margin-top: 128px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    color: rgb(50, 49, 49);
+}
+
+.description-box {
+    position: absolute;
+    margin-left: 186px;
+    margin-top: 148px;
+    
+    width: 326px;
+    height: 45px;
+}
+
+.description-para {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: rgb(44, 42, 42);
+}
+
+.bottom-line {
+    width: 60%px;
+    margin-top: 37px;
+    margin-left: -153px;
+    height: 1px;
+    background: rgb(179, 176, 176);
+}
